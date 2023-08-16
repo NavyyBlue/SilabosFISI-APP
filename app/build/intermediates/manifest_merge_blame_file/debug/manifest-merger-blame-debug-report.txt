@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.phoenixblue.fisisylabus"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:5:5-49:19
+12        android:allowBackup="true"
+12-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\jccr_\.gradle\caches\transforms-3\2a47483d8eeecece1235cdc64fe3facf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.FISISYLABUS" >
+20-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:11:9-49
+21        <activity
+21-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:12:9-15:50
+22            android:name="com.phoenixblue.fisisylabus.cursos4software"
+22-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:13:13-44
+23            android:exported="false"
+23-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:14:13-37
+24            android:label="4ºCiclo - Software" />
+24-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:15:14-48
+25        <activity
+25-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:16:9-19:50
+26            android:name="com.phoenixblue.fisisylabus.cursos3software"
+26-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:17:13-44
+27            android:exported="false"
+27-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:18:13-37
+28            android:label="3ºCiclo - Software" />
+28-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:19:13-47
+29        <activity
+29-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:20:9-23:50
+30            android:name="com.phoenixblue.fisisylabus.cursos4sistemas"
+30-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:21:13-44
+31            android:exported="false"
+31-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:22:13-37
+32            android:label="4ºCiclo - Sistemas" />
+32-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:23:13-47
+33        <activity
+33-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:24:9-27:38
+34            android:name="com.phoenixblue.fisisylabus.mostrarpdf"
+34-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:25:13-39
+35            android:exported="false"
+35-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:26:13-37
+36            android:label="Sylabus" />
+36-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:27:13-36
+37        <activity
+37-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:28:9-31:50
+38            android:name="com.phoenixblue.fisisylabus.cursos3sistemas"
+38-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:29:13-44
+39            android:exported="false"
+39-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:30:13-37
+40            android:label="3ºCiclo - Sistemas" />
+40-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:31:13-47
+41        <activity
+41-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:32:9-35:40
+42            android:name="com.phoenixblue.fisisylabus.software"
+42-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:33:13-37
+43            android:exported="false"
+43-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:34:13-37
+44            android:label="Software" />
+44-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:35:13-37
+45        <activity
+45-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:36:9-39:40
+46            android:name="com.phoenixblue.fisisylabus.sistemas"
+46-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:37:13-37
+47            android:exported="false"
+47-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:38:13-37
+48            android:label="Sistemas" />
+48-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:39:13-37
+49        <activity
+49-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:40:9-48:20
+50            android:name="com.phoenixblue.fisisylabus.MainActivity"
+50-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:41:13-41
+51            android:exported="true" >
+51-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:42:13-36
+52            <intent-filter>
+52-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:43:13-47:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:44:17-69
+53-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:44:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:46:17-77
+55-->C:\Users\jccr_\OneDrive\Documentos\GitHub\SilabosFISI-APP\app\src\main\AndroidManifest.xml:46:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+61            android:authorities="com.phoenixblue.fisisylabus.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\jccr_\.gradle\caches\transforms-3\fafa9e3623ac41b3ebf35f052764c43a\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jccr_\.gradle\caches\transforms-3\f1f521abc91f67fcfa6a288ca981d2f1\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jccr_\.gradle\caches\transforms-3\f1f521abc91f67fcfa6a288ca981d2f1\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\jccr_\.gradle\caches\transforms-3\f1f521abc91f67fcfa6a288ca981d2f1\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
